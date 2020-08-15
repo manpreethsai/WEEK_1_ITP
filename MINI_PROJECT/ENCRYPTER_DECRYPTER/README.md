@@ -13,3 +13,46 @@ decrypt(‘khoor zruog!’, 3)
 ‘hello world!’
 
 For the sake of simplicity you can assume that input solely consists of lowercase alphabets, spaces and punctuation symbols. Numbers in the input text would also be ignored similar to symbols.
+
+###########################################################################
+
+  Rule to be followed
+
+ 1) Minimum 8 characters
+ 2) Should be a Alphanumeric(aleast one alphabet and one number)
+ 3) Should contain minimum 1 special Character -[!@#$%^&*]
+ 4) password should not be same as the username
+
+
+ If password satisfies all the condition, print password is valid, if it not satisying, print the condition which are not satisfying.
+ =======================================================================================
+
+ Input : username : greatlearning
+         password : abc1
+
+ Output :
+          Password is invalid
+          Reason:
+          Should contain minimum 8 characters
+          Should contain minimum 1 special Character -[!@#$%^&*]
+
+--------------------------------------------
+
+ Input : username : greatlearning
+         password : abc123@
+
+ Output :
+          Password is invalid
+          Reason:
+          Should contain minimum 8 characters
+
+------------------------------------------------
+
+ Input : username : greatlearning
+         password : greatlearning
+
+ Output :
+          Password is invalid
+          Reason:
+          Should be a Alphanumeric(aleast one alphabet and one number)
+          Should contain minimum 1 special
