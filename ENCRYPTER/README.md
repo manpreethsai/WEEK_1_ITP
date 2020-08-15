@@ -11,6 +11,7 @@ Which shape would you like to calculate the area for? Please enter the option nu
 2. Rectangle
 3. Triangle
 4. Circle
+
 Enter Option: _
 
 Say the user enters the option 1.
